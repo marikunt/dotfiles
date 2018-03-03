@@ -52,6 +52,9 @@ nvm install 8
 nvm install stable
 nvm use 6
 
+# Yarn
+brew install yarn
+
 # Brew Cask & Cask Versions
 brew tap caskroom/cask
 brew tap caskroom/versions
