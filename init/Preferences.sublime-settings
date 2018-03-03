@@ -34,7 +34,7 @@
 		".hg",
 		"CVS",
 		"public",
-		"src",
+		"dist",
 		"node_modules"
 	],
 	"font_face": "Hack",
