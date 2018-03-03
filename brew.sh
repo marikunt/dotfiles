@@ -75,5 +75,8 @@ brew cask install opera
 # Install fonts
 brew cask install caskroom/fonts/font-hack
 
+# Install Spotify
+brew cask install spotify
+
 # Remove outdated versions from the cellar.
 brew cleanup
