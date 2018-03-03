@@ -1,4 +1,21 @@
-# Mathias’s dotfiles
+# Marius dotfiles based on Mathias’s dotfiles
+### DE Version
+**Autoinstall:**
+* node
+* caskroom/cask
+* caskroom/versions
+* sublime-text
+* tower
+* transmit
+* spectacle
+* virtualbox
+* vagrant
+* google-chrome
+* caskroom/versions/google-chrome-canary
+* firefox
+* opera
+
+also included my favorite Sublime Text packages preinstalled.
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
 
@@ -11,7 +28,7 @@
 You can clone the repository wherever you want. (I like to keep it in `~/Projects/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
 
 ```bash
-git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone https://github.com/marikunt/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
 To update, `cd` into your local `dotfiles` repository and then:
@@ -25,16 +42,6 @@ Alternatively, to update while avoiding the confirmation prompt:
 ```bash
 set -- -f; source bootstrap.sh
 ```
-
-### Git-free install
-
-To install these dotfiles without Git:
-
-```bash
-cd; curl -#L https://github.com/mathiasbynens/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,.osx,LICENSE-MIT.txt}
-```
-
-To update later on, just run that command again.
 
 ### Specify the `$PATH`
 
