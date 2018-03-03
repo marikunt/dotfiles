@@ -43,8 +43,14 @@ brew install openssh
 brew install screen
 #brew install homebrew/php/php56 --with-gmp
 
-# Node
-brew install node
+# Node Version Manager
+brew install nvm
+nvm install 5
+nvm install 6
+nvm install 7
+nvm install 8
+nvm install stable
+nvm use 6
 
 # Brew Cask & Cask Versions
 brew tap caskroom/cask
