@@ -59,8 +59,9 @@ brew install yarn
 brew tap caskroom/cask
 brew tap caskroom/versions
 
-# Sublime Text, Tower, Transmit, Spectacle
+# Sublime Text, Visual Studio Code, Tower, Transmit, Spectacle
 brew cask install sublime-text
+brew cask install visual-studio-code
 brew cask install tower
 brew cask install transmit
 brew cask install spectacle
