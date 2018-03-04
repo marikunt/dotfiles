@@ -55,6 +55,10 @@ nvm use 6
 # Yarn
 brew install yarn
 
+# Python & Pygments for colored cat
+brew install python
+pip install Pygments
+
 # Brew Cask & Cask Versions
 brew tap caskroom/cask
 brew tap caskroom/versions
