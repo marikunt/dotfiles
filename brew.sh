@@ -51,7 +51,6 @@ nvm install 7
 nvm install 8
 nvm install stable
 nvm use 6
-source $(brew --prefix nvm)/nvm.sh
 
 # Yarn
 brew install yarn
