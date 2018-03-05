@@ -13,6 +13,8 @@
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Dark.tmTheme",
 	"copy_with_empty_selection": false,
+	"default_encoding": "UTF-8",
+	"default_line_ending": "unix",
 	"drag_text": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
@@ -34,7 +36,6 @@
 		".hg",
 		"CVS",
 		"public",
-		"dist",
 		"node_modules"
 	],
 	"font_face": "Hack",
@@ -42,14 +43,25 @@
 	[
 		"no_round"
 	],
-	"font_size": 14,
+	"font_size": 13,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": true,
+	"ignored_packages":
+	[
+		"Bootstrap 3 Snippets",
+		"CSSOrder",
+		"Markdown",
+		"Vintage"
+	],
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
 	],
+	"line_padding_bottom": 5,
 	"line_padding_top": 3,
+	"match_brackets_angle": true,
 	"match_brackets_content": false,
 	"match_selection": false,
 	"match_tags": false,
@@ -61,6 +73,10 @@
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
 	"preview_on_click": false,
+	"rulers":
+	[
+		80
+	],
 	"scroll_past_end": true,
 	"scroll_speed": 5.0,
 	"selectedBrowser": "chrome",
@@ -85,15 +101,5 @@
 	"theme_tab_selected_prelined": true,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true,
-	"rulers":
-	[
-		80
-	],
-	"highlight_modified_tabs": true,
-	"default_encoding": "UTF-8",
-	"line_padding_bottom": 5,
-	"hot_exit": false,
-	"match_brackets_angle": true,
-	"default_line_ending": "unix",
+	"word_wrap": true
 }
