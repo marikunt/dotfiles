@@ -63,12 +63,15 @@ pip install Pygments
 brew tap caskroom/cask
 brew tap caskroom/versions
 
-# Sublime Text, Visual Studio Code, Tower, Transmit, Spectacle
+# Sublime Text, Visual Studio Code, Tower, Transmit, Tableplus, Spectacle, Dash, whatsapp
 brew cask install sublime-text
 brew cask install visual-studio-code
 brew cask install tower
 brew cask install transmit
+brew cask install tableplus
 brew cask install spectacle
+brew cask install dash
+brew cask install whatsapp
 
 # Virtual box & vagrant
 brew cask install virtualbox
@@ -85,6 +88,9 @@ brew cask install caskroom/fonts/font-hack
 
 # Install Spotify
 brew cask install spotify
+
+# Install Java
+brew cask install java
 
 # Remove outdated versions from the cellar.
 brew cleanup
