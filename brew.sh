@@ -63,7 +63,8 @@ pip install Pygments
 brew tap caskroom/cask
 brew tap caskroom/versions
 
-# Sublime Text, Visual Studio Code, Tower, Transmit, Tableplus, Spectacle, Dash, whatsapp, caffeine
+# Sublime Text, Visual Studio Code, Tower, Transmit, Tableplus, Spectacle,
+# Dash, whatsapp, caffeine, exifrenamer
 brew cask install sublime-text
 brew cask install visual-studio-code
 brew cask install tower
@@ -73,6 +74,7 @@ brew cask install spectacle
 brew cask install dash
 brew cask install whatsapp
 brew cask install caffeine
+brew cask install exifrenamer
 
 # Virtual box & vagrant
 brew cask install virtualbox
